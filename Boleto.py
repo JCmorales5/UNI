@@ -1,0 +1,12 @@
+Peli = str(input(" Hola ¿Que pelicula deseas ver?: "))
+Lugar = str(input(" ¿Qué lugar te gustaria tomar? Centro, lado izq, o lado derecho?: "))
+Fecha = str(input(" ¿Que fecha te gustaría ver la pelicula?: "))
+Hora = str(input(" ¿Que Hora te gustaría ver la pelicula?: "))
+
+print("\n*****************************************************")
+print(" \033[33m " +  " Bienvenido Cines IES  "  + " 031[33m ")
+print("\n*****************************************************")
+print(f"Nombre de Pelicula: {Peli}")
+print(f"Asiento: {Lugar}")
+print(f"Fecha y Hora: {Fecha} / {Hora}")
+print("\n*****************************************************")
