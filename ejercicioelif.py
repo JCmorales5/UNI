@@ -33,9 +33,9 @@ if Nota3 > Nota1 and Nota3 > Nota2:
 
 if Nota1 == Nota2:
     print(Nom1, "y", Nom2, "Tienen la misma nota")
-    if Nota1 == Nota3:
-        print(Nom1, "y", Nom3, "Tiene la misma nota")
+if Nota1 == Nota3:
+    print(Nom1, "y", Nom3, "Tiene la misma nota")
 if Nota2 == Nota3:
     print(Nom2, "y", Nom3, "Tiene la misma nota")
-    if Nota2 == Nota1:
-        print(Nom2, "y", Nom1, "Tienen la misma nota")
+if Nota2 == Nota1:
+    print(Nom2, "y", Nom1, "Tienen la misma nota")
